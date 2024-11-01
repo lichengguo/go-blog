@@ -3,9 +3,10 @@ package model
 import (
 	"encoding/base64"
 	"fmt"
+	"go-blog-server/utils/errmsg"
+
 	"golang.org/x/crypto/scrypt"
 	"gorm.io/gorm"
-	"my-blog-golang/server/utils/errmsg"
 )
 
 // 用户

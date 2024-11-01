@@ -1,12 +1,13 @@
 package v1
 
 import (
-	"github.com/gin-gonic/gin"
-	"my-blog-golang/server/model"
-	"my-blog-golang/server/utils/errmsg"
-	"my-blog-golang/server/utils/validator"
+	"go-blog-server/model"
+	"go-blog-server/utils/errmsg"
+	"go-blog-server/utils/validator"
 	"net/http"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
 )
 
 var code int

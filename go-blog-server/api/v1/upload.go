@@ -2,11 +2,12 @@ package v1
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"my-blog-golang/server/model"
-	"my-blog-golang/server/utils"
-	"my-blog-golang/server/utils/errmsg"
+	"go-blog-server/model"
+	"go-blog-server/utils"
+	"go-blog-server/utils/errmsg"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 func UpLoad(c *gin.Context) {

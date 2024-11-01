@@ -2,9 +2,10 @@ package utils
 
 import (
 	"fmt"
-	"gopkg.in/ini.v1"
 	"os"
 	"path/filepath"
+
+	"gopkg.in/ini.v1"
 )
 
 // 声明配置文件参数变量

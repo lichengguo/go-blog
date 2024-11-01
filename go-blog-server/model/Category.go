@@ -1,8 +1,9 @@
 package model
 
 import (
+	"go-blog-server/utils/errmsg"
+
 	"gorm.io/gorm"
-	"my-blog-golang/server/utils/errmsg"
 )
 
 // 文章分类

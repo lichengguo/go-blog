@@ -1,11 +1,12 @@
 package v1
 
 import (
-	"github.com/gin-gonic/gin"
-	"my-blog-golang/server/model"
-	"my-blog-golang/server/utils/errmsg"
+	"go-blog-server/model"
+	"go-blog-server/utils/errmsg"
 	"net/http"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
 )
 
 // 添加分类

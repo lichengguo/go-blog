@@ -1,11 +1,12 @@
 package v1
 
 import (
-	"github.com/gin-gonic/gin"
-	"my-blog-golang/server/middleware"
-	"my-blog-golang/server/model"
-	"my-blog-golang/server/utils/errmsg"
+	"go-blog-server/middleware"
+	"go-blog-server/model"
+	"go-blog-server/utils/errmsg"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 func Login(c *gin.Context) {

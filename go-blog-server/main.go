@@ -1,9 +1,9 @@
 package main
 
 import (
-	"my-blog-golang/server/model"
-	"my-blog-golang/server/routes"
-	"my-blog-golang/server/utils"
+	"go-blog-server/model"
+	"go-blog-server/routes"
+	"go-blog-server/utils"
 )
 
 func main() {

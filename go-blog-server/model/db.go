@@ -4,11 +4,12 @@ import (
 	"fmt"
 	//_ "github.com/go-sql-driver/mysql"
 	//"github.com/jinzhu/gorm"
+	"go-blog-server/utils"
+	"time"
+
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
-	"my-blog-golang/server/utils"
-	"time"
 )
 
 var (

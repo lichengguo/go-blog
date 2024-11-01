@@ -2,9 +2,10 @@ package model
 
 import (
 	"fmt"
+	"go-blog-server/utils"
+	"go-blog-server/utils/errmsg"
+
 	"github.com/gin-gonic/gin"
-	"my-blog-golang/server/utils"
-	"my-blog-golang/server/utils/errmsg"
 
 	"mime/multipart"
 )

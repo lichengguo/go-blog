@@ -2,11 +2,12 @@ package routes
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"my-blog-golang/server/api/v1"
-	"my-blog-golang/server/middleware"
-	"my-blog-golang/server/utils"
+	v1 "go-blog-server/api/v1"
+	"go-blog-server/middleware"
+	"go-blog-server/utils"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 func InitRouter() {

@@ -2,15 +2,16 @@ package middleware
 
 import (
 	"fmt"
+	"go-blog-server/utils"
+	"math"
+	"os"
+	"path/filepath"
+	"time"
+
 	"github.com/gin-gonic/gin"
 	retalog "github.com/lestrrat-go/file-rotatelogs"
 	"github.com/rifflock/lfshook"
 	"github.com/sirupsen/logrus"
-	"math"
-	"my-blog-golang/server/utils"
-	"os"
-	"path/filepath"
-	"time"
 )
 
 func Log() gin.HandlerFunc {
